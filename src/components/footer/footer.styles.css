@@ -1,0 +1,23 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.icon {
+    font-size: 1.2rem;
+    padding: 0 5px;
+   
+}
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #38a1f3;
+}
