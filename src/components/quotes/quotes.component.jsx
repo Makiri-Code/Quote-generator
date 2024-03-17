@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { QuotesContext } from "../../context/quotesContext";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaQuoteLeft } from "react-icons/fa6";
-import Footer from "../footer/footer.component";
+import Footer from "../footer/footer.component"
 import "./quotes.styles.css"
 
 const Quotes = () => {

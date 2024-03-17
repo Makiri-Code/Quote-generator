@@ -1,7 +1,11 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    left: 0;
 }
 .icon {
     font-size: 1.2rem;
@@ -21,3 +25,18 @@ a{
 a:hover {
     color: #38a1f3;
 }
+
+@media  screen and (max-width: 1000px) {
+    .footer-container{
+     position: absolute;
+     bottom: 0;
+    }
+  }
+
+  @media  screen and (max-width: 400px) {
+    .footer-container{
+     position: absolute;
+     bottom: 0;
+     top: 100vh;
+    }
+  }
